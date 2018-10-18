@@ -8,4 +8,10 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
+$("#buttont").click(function(){
+    $("userChoice").text($("#input").val()
+})
 
+$("#choices").click(function(){
+    $("computerChoice").text($("#input").val()
+})
