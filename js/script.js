@@ -19,11 +19,22 @@ $("button").click(function() {
 
 $("#choices").click (function(){
     $("#computerChoice").text ($("#input").val());
-     if (randomNumber > 0.6)
+     if (randomNumber > .33)
     {
         computerChoice = "rock";
     }
-    else if(randomChoice =)
+       if (randomNumber > .66)
+    {
+        computerChoice = "scissors";
+    }
+       if (randomNumber > .33)
+    {
+        computerChoice = "paper";
+    }
+    else{
+        randomChoice = "";
+    }
+    
     
     
 });
